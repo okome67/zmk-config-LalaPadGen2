@@ -57,6 +57,16 @@
             bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
+
+        IMEOFF {
+            bindings = <&kp INT_HENKAN>;
+            key-positions = <17 16>;
+        };
+
+        IMEOFF {
+            bindings = <&kp INT_MUHENKAN>;
+            key-positions = <13 12>;
+        };
     };
 
     macros {
