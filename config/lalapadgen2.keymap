@@ -58,7 +58,7 @@
             key-positions = <10 11>;
         };
 
-        IMEOFF {
+        IMEON {
             bindings = <&kp INT_HENKAN>;
             key-positions = <17 16>;
         };
