@@ -125,13 +125,13 @@
 
         layer_4 {
             bindings = <
-&trans  &kp LC(TAB)  &trans  &kp LC(RS(TAB))  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &trans  &trans           &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &trans  &trans           &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &trans  &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans       &trans  &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &trans                                                           &trans  &trans  &trans
-&trans  &trans       &trans  &trans           &trans                  &trans  &trans  &trans  &trans  &trans
+&kp LC(L)    &kp LC(T)      &kp LC(TAB)      &kp LC(W)  &kp LC(R)                  &trans  &trans  &trans  &trans  &trans
+&kp LC(TAB)  &kp LS(LC(T))  &kt LS(LC(TAB))  &trans     &kp LC(F)                  &trans  &trans  &trans  &trans  &trans
+&trans       &trans         &trans           &trans     &trans                     &trans  &trans  &trans  &trans  &trans
+&trans       &trans         &trans           &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+             &trans         &trans           &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans         &trans                                                                 &trans  &trans  &trans
+&trans       &trans         &trans           &trans     &trans                     &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
