@@ -74,13 +74,13 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&kp Q               &kp P      &kp U            &kp Y             &kp COMMA                          &kp J      &kp D             &kp H        &kp G          &kp W
-&mt LEFT_CONTROL I  &kp O      &kp E            &kp A             &kp PERIOD                         &kp K      &kp T             &kp N        &kp S          &mt RIGHT_CONTROL R
-&mt2 LEFT_SHIFT Z   &kp X      &kp EXCLAMATION  &kp C             &kp MINUS                          &kp M      &kp L             &kp F        &kp B          &mt RSHIFT V
-&kp LCTRL           &kp LWIN   &kp LEFT_ALT     &lt 1 LANGUAGE_2  &kp SPACE   &NN     &kp BACKSPACE  &kp ENTER  &lt 2 LANGUAGE_1  &kp SLASH    &kp SEMICOLON  &kp BACKSLASH
-                    &none      &kp RIGHT        &kp DOWN          &kp LEFT    &kp UP  &kp UP         &kp LEFT   &kp DOWN          &kp RIGHT    &none
-&mkp LCLK           &mkp RCLK  &mkp MCLK                                                                                          &mkp LCLK    &mkp RCLK      &mkp MCLK
-&mkp MB4            &mkp MB5   &kp LG(TAB)      &kp LG(D)         &kp LCTRL                          &mkp MB4   &mkp MB5          &kp LG(TAB)  &kp LG(D)      &kp LCTRL
+&kp Q               &kp P      &kp U            &kp Y             &kp COMMA                           &kp J      &kp D             &kp H        &kp G          &kp W
+&mt LEFT_CONTROL I  &kp O      &kp E            &kp A             &kp PERIOD                          &kp K      &kp T             &kp N        &kp S          &mt RIGHT_CONTROL R
+&mt2 LEFT_SHIFT Z   &kp X      &kp EXCLAMATION  &kp C             &kp MINUS                           &kp M      &kp L             &kp F        &kp B          &mt RSHIFT V
+&kp LCTRL           &kp LWIN   &kp LEFT_ALT     &lt 1 LANGUAGE_2  &lt 4 SPACE  &NN     &kp BACKSPACE  &kp ENTER  &lt 2 LANGUAGE_1  &kp SLASH    &kp SEMICOLON  &kp BACKSLASH
+                    &none      &kp RIGHT        &kp DOWN          &kp LEFT     &kp UP  &kp UP         &kp LEFT   &kp DOWN          &kp RIGHT    &none
+&mkp LCLK           &mkp RCLK  &mkp MCLK                                                                                           &mkp LCLK    &mkp RCLK      &mkp MCLK
+&mkp MB4            &mkp MB5   &kp LG(TAB)      &kp LG(D)         &kp LCTRL                           &mkp MB4   &mkp MB5          &kp LG(TAB)  &kp LG(D)      &kp LCTRL
             >;
         };
 
@@ -103,7 +103,7 @@
 &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR            &kp PERCENT                             &kp PAGE_UP    &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
 &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                   &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp SCROLLLOCK
 &kp GRAVE        &kp SQT        &kp SEMI      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                       &trans         &mkp MB4  &trans          &mkp MB5   &kp PAUSE_BREAK
-&trans           &trans         &trans        &trans                &kp LEFT_SHIFT         &trans  &kp DEL  &trans         &trans    &trans          &trans     &trans
+&trans           &trans         &trans        &trans                &kp LEFT_SHIFT         &trans  &kp DEL  &kp LSHFT      &trans    &trans          &trans     &trans
                  &trans         &trans        &trans                &trans                 &trans  &trans   &trans         &trans    &trans          &trans
 &trans           &trans         &trans                                                                                               &trans          &trans     &trans
 &trans           &trans         &trans        &trans                &trans                                  &trans         &trans    &trans          &trans     &trans
@@ -125,13 +125,13 @@
 
         layer_4 {
             bindings = <
-&trans     &trans     &trans     &trans     &trans                  &trans  &trans  &trans  &trans  &trans
-&kp LC(A)  &trans     &trans     &trans     &trans                  &trans  &trans  &trans  &trans  &trans
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-           &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans     &trans                                                        &trans  &trans  &trans
-&trans     &trans     &trans     &trans     &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(TAB)  &trans  &kp LC(RS(TAB))  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans  &trans           &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans  &trans           &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans  &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans       &trans  &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans                                                           &trans  &trans  &trans
+&trans  &trans       &trans  &trans           &trans                  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
