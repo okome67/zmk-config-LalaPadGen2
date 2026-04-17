@@ -123,9 +123,9 @@
             >;
         };
 
-        layer_4 {
+        Shortcut {
             bindings = <
-&kp LC(L)    &kp LC(T)      &kp LC(TAB)      &kp LC(W)  &kp LC(R)                  &trans  &trans  &trans  &trans  &trans
+&kp LC(L)    &kp LC(T)      &kp LC(LS(TAB))  &kp LC(W)  &kp LC(R)                  &trans  &trans  &trans  &trans  &trans
 &kp LC(TAB)  &kp LS(LC(T))  &kt LS(LC(TAB))  &trans     &kp LC(F)                  &trans  &trans  &trans  &trans  &trans
 &trans       &trans         &trans           &trans     &trans                     &trans  &trans  &trans  &trans  &trans
 &trans       &trans         &trans           &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -144,6 +144,18 @@
                     &none      &kp RIGHT        &kp DOWN          &kp LEFT     &kp UP  &kp UP         &kp LEFT   &kp DOWN          &kp RIGHT    &none
 &mkp LCLK           &mkp RCLK  &mkp MCLK                                                                                           &mkp LCLK    &mkp RCLK      &mkp MCLK
 &mkp MB4            &mkp MB5   &kp LG(TAB)      &kp LG(D)         &kp LCTRL                           &mkp MB4   &mkp MB5          &kp LG(TAB)  &kp LG(D)      &kp LCTRL
+            >;
+        };
+
+        shortcat_and {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans                                                  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
