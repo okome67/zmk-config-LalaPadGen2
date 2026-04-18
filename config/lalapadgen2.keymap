@@ -167,7 +167,7 @@
             bindings = <
 &kp LC(L)    &kp LC(T)         &kp LC(LA(UP))    &kp LC(W)          &kp LC(R)                   &trans  &trans  &trans  &trans  &trans
 &kp LA(TAB)  &kp LC(LA(LEFT))  &kt LA(LC(DOWN))  &kp LC(LA(RIGHT))  &kp LC(F)                   &trans  &trans  &trans  &trans  &trans
-&kp LG(H)    &kp RC(DOWN)      &trans            &trans             &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
+&kp LG(H)    &kp RA(DOWN)      &trans            &trans             &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
 &trans       &trans            &trans            &trans             &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
              &trans            &trans            &trans             &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans       &trans            &trans                                                                           &trans  &trans  &trans
