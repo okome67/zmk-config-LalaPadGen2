@@ -94,13 +94,13 @@
         SECONDARY_LAYER {
             display-name = "secondary_layer";
             bindings = <
-&kp COMMA         &kp N7             &kp N8  &kp N9  &kp PLUS                    &trans            &kp F7             &kp F8  &kp KP_NUMBER_9  &kp F12
-&kp PERIOD        &kp N4             &kp N5  &kp N6  &kp MINUS                   &kp ASTERISK      &kp F4             &kp F5  &kp F6           &kp F11
-&kp N0            &kp N1             &kp N2  &kp N3  &kp EQUAL                   &kp SLASH         &kp F1             &kp F2  &kp F3           &kp F10
-&kp DEL           &trans             &trans  &trans  &trans     &trans  &kp DEL  &trans            &trans             &trans  &trans           &trans
-                  &trans             &trans  &trans  &trans     &trans  &trans   &trans            &trans             &trans  &trans
-&trans            &trans             &trans                                                                           &trans  &trans           &trans
-&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans  &trans  &trans                      &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans  &trans           &trans
+&kp COMMA         &kp N7             &kp N8        &kp N9  &kp PLUS                    &trans            &kp F7             &kp F8  &kp KP_NUMBER_9  &kp F12
+&kp PERIOD        &kp N4             &kp N5        &kp N6  &kp MINUS                   &kp ASTERISK      &kp F4             &kp F5  &kp F6           &kp F11
+&kp N0            &kp N1             &kp N2        &kp N3  &kp EQUAL                   &kp SLASH         &kp F1             &kp F2  &kp F3           &kp F10
+&kp DEL           &kp RCTRL          &kp LEFT_ALT  &trans  &trans     &trans  &kp DEL  &trans            &trans             &trans  &trans           &trans
+                  &trans             &trans        &trans  &trans     &trans  &trans   &trans            &trans             &trans  &trans
+&trans            &trans             &trans                                                                                 &trans  &trans           &trans
+&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans        &trans  &trans                      &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans  &trans           &trans
             >;
         };
 
@@ -110,7 +110,7 @@
 &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR            &kp PERCENT                             &kp PAGE_UP    &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
 &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                   &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp SCROLLLOCK
 &kp GRAVE        &kp SQT        &kp SEMI      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                       &kp DELETE     &mkp MB4  &trans          &mkp MB5   &kp PAUSE_BREAK
-&trans           &trans         &trans        &trans                &kp LEFT_SHIFT         &trans  &kp DEL  &kp LSHFT      &trans    &trans          &trans     &trans
+&kp RCTRL        &kp LEFT_ALT   &trans        &trans                &kp LEFT_SHIFT         &trans  &kp DEL  &kp LSHFT      &trans    &trans          &trans     &trans
                  &trans         &trans        &trans                &trans                 &trans  &trans   &trans         &trans    &trans          &trans
 &trans           &trans         &trans                                                                                               &trans          &trans     &trans
 &trans           &trans         &trans        &trans                &trans                                  &trans         &trans    &trans          &trans     &trans
