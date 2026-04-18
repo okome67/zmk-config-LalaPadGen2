@@ -142,7 +142,7 @@
         Shortcut {
             bindings = <
 &kp LC(L)    &kp LC(T)      &kp LC(LS(TAB))  &kp LC(W)  &kp LC(R)                  &kp LA(LC(LG(NUMBER_1)))  &kp LA(LC(LG(NUMBER_2)))  &kp LG(LC(LA(NUMBER_3)))  &kp LG(LC(LA(NUMBER_4)))  &kp LG(LC(LA(N5)))
-&kp LC(TAB)  &kp LS(LC(T))  &kt LS(LC(TAB))  &trans     &kp LC(F)                  &kp LA(LC(LG(NUMBER_6)))  &kp LA(LC(LG(N7)))        &kp LG(LA(LC(N8)))        &kp LA(LC(LG(N9)))        &kp LA(LC(LG(N0)))
+&kp LC(TAB)  &kp LS(LC(T))  &kt LC(TAB)      &trans     &kp LC(F)                  &kp LA(LC(LG(NUMBER_6)))  &kp LA(LC(LG(N7)))        &kp LG(LA(LC(N8)))        &kp LA(LC(LG(N9)))        &kp LA(LC(LG(N0)))
 &kp LG(D)    &trans         &trans           &trans     &trans                     &trans                    &trans                    &trans                    &trans                    &trans
 &trans       &trans         &trans           &trans     &trans     &trans  &trans  &trans                    &trans                    &trans                    &trans                    &trans
              &trans         &trans           &trans     &trans     &trans  &trans  &trans                    &trans                    &trans                    &trans
@@ -165,13 +165,13 @@
 
         shortcat_and {
             bindings = <
-&kp LC(L)    &kp LC(T)      &kp LC(LA(UP))    &kp LC(W)  &kp LC(R)                   &trans  &trans  &trans  &trans  &trans
-&kp LA(TAB)  &kp LS(LC(T))  &kt LC(LA(DOWN))  &trans     &kp LC(F)                   &trans  &trans  &trans  &trans  &trans
-&kp LG(H)    &trans         &trans            &trans     &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
-&trans       &trans         &trans            &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-             &trans         &trans            &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans         &trans                                                                   &trans  &trans  &trans
-&trans       &trans         &trans            &trans     &trans                      &trans  &trans  &trans  &trans  &trans
+&kp LC(L)    &kp LC(T)      &kp LC(LA(TAB))  &kp LC(W)  &kp LC(R)                   &trans  &trans  &trans  &trans  &trans
+&kp LA(TAB)  &kp LS(LC(T))  &kt LA(TAB)      &trans     &kp LC(F)                   &trans  &trans  &trans  &trans  &trans
+&kp LG(H)    &trans         &trans           &trans     &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
+&trans       &trans         &trans           &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+             &trans         &trans           &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans         &trans                                                                  &trans  &trans  &trans
+&trans       &trans         &trans           &trans     &trans                      &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
