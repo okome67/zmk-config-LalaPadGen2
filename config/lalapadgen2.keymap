@@ -77,7 +77,7 @@
         android: android {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 1>, <&macro_press>;
+            bindings = <&bt BT_SEL 1>, <&macro_press>, <&to 6>;
 
             label = "ANDROID";
         };
