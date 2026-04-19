@@ -82,6 +82,13 @@
 
             label = "WIN";
         };
+
+        winH: winH {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_WIN &kp H>;
+            label = "WINH";
+        };
     };
 
     keymap {
@@ -165,13 +172,13 @@
 
         shortcat_and {
             bindings = <
-&kp LC(L)  &kp LC(T)         &kp LC(LA(UP))    &kp LC(W)          &kp LC(R)                   &trans  &trans  &trans  &trans  &trans
-&kp LG(D)  &kp LC(LA(LEFT))  &kp LA(LC(DOWN))  &kp LC(LA(RIGHT))  &kp LC(F)                   &trans  &trans  &trans  &trans  &trans
-&kp LG(H)  &kp RA(DOWN)      &trans            &trans             &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
-&trans     &trans            &trans            &trans             &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-           &trans            &trans            &trans             &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans            &trans                                                                           &trans  &trans  &trans
-&trans     &trans            &trans            &trans             &trans                      &trans  &trans  &trans  &trans  &trans
+&kp LC(L)  &kp LC(T)         &kp LC(LA(TAB))  &kp LC(W)          &kp LC(R)                   &trans  &trans  &trans  &trans  &trans
+&kp LG(D)  &kp LC(LA(LEFT))  &kp LA(LC(TAB))  &kp LC(LA(RIGHT))  &kp LC(F)                   &trans  &trans  &trans  &trans  &trans
+&kp LG(H)  &kp RA(DOWN)      &trans           &trans             &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
+&trans     &trans            &trans           &trans             &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+           &trans            &trans           &trans             &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans            &trans                                                                          &trans  &trans  &trans
+&trans     &trans            &trans           &trans             &trans                      &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
