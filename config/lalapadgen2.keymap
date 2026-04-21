@@ -86,7 +86,11 @@
         winH: winH {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp H>;
+            bindings =
+                <&kt LEFT_WIN>,
+                <&macro_wait_time 40>,
+                <&kp H &kt LEFT_WIN>;
+
             label = "WINH";
         };
     };
@@ -173,7 +177,7 @@
         shortcat_and {
             bindings = <
 &kp LC(L)    &kp LC(T)     &kp LC(LA(TAB))  &kp LC(W)          &kp LC(R)                   &trans  &trans  &trans  &trans  &trans
-&kp LA(TAB)  &kt LEFT_ALT  &kp LA(LC(TAB))  &kp LC(LA(RIGHT))  &kp LC(F)                   &trans  &trans  &trans  &trans  &trans
+&kp LG(TAB)  &kt LEFT_ALT  &kp LA(LC(TAB))  &kp LC(LA(RIGHT))  &kp LC(F)                   &trans  &trans  &trans  &trans  &trans
 &winH        &kp RA(DOWN)  &trans           &trans             &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
 &trans       &trans        &trans           &trans             &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
              &trans        &trans           &trans             &trans      &trans  &trans  &trans  &trans  &trans  &trans
