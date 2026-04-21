@@ -149,7 +149,7 @@
         Shortcut {
             bindings = <
 &kp LC(L)    &kp LC(T)      &kp LC(LS(TAB))  &kp LC(W)  &kp LC(R)                  &trans  &trans  &trans  &trans  &trans
-&kp LC(TAB)  &kp LS(LC(T))  &kt LC(TAB)      &trans     &kp LC(F)                  &trans  &trans  &trans  &trans  &trans
+&kp LG(TAB)  &kp LS(LC(T))  &kt LC(TAB)      &trans     &kp LC(F)                  &trans  &trans  &trans  &trans  &trans
 &kp LG(D)    &trans         &trans           &trans     &kp SPACE                  &trans  &trans  &trans  &trans  &trans
 &trans       &trans         &trans           &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
              &trans         &trans           &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
