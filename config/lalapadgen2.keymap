@@ -116,7 +116,7 @@
 &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &out OUT_TOG                   &win                           &android                       &bt BT_SEL 2                   &bt BT_SEL 3
 &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &sys_reset                     &bootloader                    &bt BT_CLR                     &bt BT_CLR_ALL                 &trans
 &kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &zip_dyn_scale ZDS_XY ZDS_INC  &zip_dyn_scale ZDS_XY ZDS_DEC  &zip_dyn_scale ZDS_SC ZDS_INC  &zip_dyn_scale ZDS_SC ZDS_DEC  &zip_dyn_scale ZDS_ALL ZDS_RST
-&to 5    &trans   &trans   &trans   &trans   &trans  &trans  &trans                         &trans                         &trans                         &trans                         &to 0
+&to 0    &trans   &trans   &trans   &trans   &trans  &trans  &trans                         &trans                         &trans                         &trans                         &to 0
          &trans   &trans   &trans   &trans   &trans  &trans  &trans                         &trans                         &trans                         &trans
 &trans   &trans   &trans                                                                                                   &trans                         &trans                         &trans
 &trans   &trans   &trans   &trans   &trans                   &trans                         &trans                         &trans                         &trans                         &trans
@@ -135,23 +135,11 @@
             >;
         };
 
-        android_def {
-            bindings = <
-&kp Q               &kp P      &kp U            &kp Y             &kp COMMA                           &kp J      &kp D             &kp H        &kp G          &kp W
-&mt LEFT_CONTROL I  &kp O      &kp E            &kp A             &kp PERIOD                          &kp K      &kp T             &kp N        &kp S          &mt RIGHT_CONTROL R
-&mt2 LEFT_SHIFT Z   &kp X      &kp EXCLAMATION  &kp C             &kp MINUS                           &kp M      &kp L             &kp F        &kp B          &mt RSHIFT V
-&kp LCTRL           &kp LWIN   &kp LEFT_ALT     &lt 1 LANGUAGE_2  &lt 6 SPACE  &NN     &kp BACKSPACE  &kp ENTER  &lt 2 LANGUAGE_1  &kp SLASH    &kp SEMICOLON  &kp BACKSLASH
-                    &none      &kp RIGHT        &kp DOWN          &kp LEFT     &kp UP  &kp UP         &kp LEFT   &kp DOWN          &kp RIGHT    &none
-&mkp LCLK           &mkp RCLK  &mkp MCLK                                                                                           &mkp LCLK    &mkp RCLK      &mkp MCLK
-&mkp MB4            &mkp MB5   &kp LG(TAB)      &kp LG(D)         &kp LCTRL                           &mkp MB4   &mkp MB5          &kp LG(TAB)  &kp LG(D)      &kp LCTRL
-            >;
-        };
-
         shortcat_and {
             bindings = <
 &kp LC(L)    &kp LC(T)     &kp LC(LA(TAB))  &kp LC(W)          &kp LC(R)                   &trans  &trans  &trans  &trans  &trans
 &kp LG(TAB)  &kt LEFT_ALT  &kp LA(LC(TAB))  &kp LC(LA(RIGHT))  &kp LC(F)                   &trans  &trans  &trans  &trans  &trans
-&winH        &kp RA(DOWN)  &trans           &trans             &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
+&trans       &kp RA(DOWN)  &trans           &trans             &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
 &trans       &trans        &trans           &trans             &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
              &trans        &trans           &trans             &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans       &trans        &trans                                                                          &trans  &trans  &trans
