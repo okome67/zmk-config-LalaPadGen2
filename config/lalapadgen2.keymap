@@ -135,6 +135,18 @@
             >;
         };
 
+        AND_DEF {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans                                                  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
         shortcat_and {
             bindings = <
 &kp LC(L)    &kp LC(T)     &kp LC(LA(TAB))  &kp LC(W)          &kp LC(R)                   &trans  &trans  &trans  &trans  &trans
