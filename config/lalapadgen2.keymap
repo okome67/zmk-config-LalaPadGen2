@@ -66,33 +66,6 @@
             bindings = <&kp N &kp N>;
             label = "NN";
         };
-
-        android: android {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&bt BT_SEL 1>, <&macro_wait_time 200>, <&to 5>;
-
-            label = "ANDROID";
-        };
-
-        win: win {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&bt BT_SEL 0>, <&macro_wait_time 200>, <&to 0>;
-
-            label = "WIN";
-        };
-
-        winH: winH {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&kt LEFT_WIN>,
-                <&macro_wait_time 40>,
-                <&kp H &kt LEFT_WIN>;
-
-            label = "WINH";
-        };
     };
 
     keymap {
@@ -183,18 +156,6 @@
              &trans        &trans           &trans             &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans       &trans        &trans                                                                          &trans  &trans  &trans
 &trans       &trans        &trans           &trans             &trans                      &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        alt+tab {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans                                                  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
