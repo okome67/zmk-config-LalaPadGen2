@@ -149,13 +149,13 @@
 
         shortcat_and {
             bindings = <
-&kp LC(L)    &kp LC(T)     &kp LC(LA(TAB))  &kp LC(W)          &kp LC(R)                   &trans  &trans  &trans  &trans  &trans
-&kp LG(TAB)  &kt TAB       &kp LA(LC(TAB))  &kp LC(LA(RIGHT))  &kp LC(F)                   &trans  &trans  &trans  &trans  &trans
-&trans       &kp RA(DOWN)  &trans           &trans             &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
-&trans       &trans        &trans           &trans             &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-             &trans        &trans           &trans             &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans        &trans                                                                          &trans  &trans  &trans
-&trans       &trans        &trans           &trans             &trans                      &trans  &trans  &trans  &trans  &trans
+&kp LC(L)    &kp LC(T)  &kp LS(LG(TAB))  &kp LC(W)  &kp LC(R)                   &trans  &trans  &trans  &trans  &trans
+&kp LG(TAB)  &kt TAB    &kp LG(TAB)      &trans     &kp LC(F)                   &trans  &trans  &trans  &trans  &trans
+&kp LG(H)    &trans     &trans           &trans     &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
+&trans       &trans     &trans           &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+             &trans     &trans           &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans     &trans                                                                  &trans  &trans  &trans
+&trans       &trans     &trans           &trans     &trans                      &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
