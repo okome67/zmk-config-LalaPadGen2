@@ -160,8 +160,8 @@
 
         shortcat_and {
             bindings = <
-&kp LC(L)    &kp LC(T)  &kp LS(LG(TAB))  &kp LC(W)  &kp LC(R)                   &trans  &trans  &trans  &trans  &trans
-&kp LG(TAB)  &kp TAB    &kp LG(TAB)      &mkp LCLK  &kp LC(F)                   &trans  &trans  &trans  &trans  &trans
+&kp LC(L)    &kp LC(T)  &kp LS(LC(TAB))  &kp LC(W)  &kp LC(R)                   &trans  &trans  &trans  &trans  &trans
+&kp LG(TAB)  &kp TAB    &kp LC(TAB)      &mkp LCLK  &kp LC(F)                   &trans  &trans  &trans  &trans  &trans
 &win_H       &trans     &trans           &trans     &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
 &trans       &trans     &trans           &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
              &trans     &trans           &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
