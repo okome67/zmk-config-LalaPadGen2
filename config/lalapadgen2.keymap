@@ -66,6 +66,17 @@
             bindings = <&kp N &kp N>;
             label = "NN";
         };
+
+        win_H: win_H {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kt LEFT_META>,
+                <&macro_wait_time 20>,
+                <&kp H &kt LEFT_META>;
+
+            label = "WIN_H";
+        };
     };
 
     keymap {
@@ -151,7 +162,7 @@
             bindings = <
 &kp LC(L)    &kp LC(T)  &kp LS(LG(TAB))  &kp LC(W)  &kp LC(R)                   &trans  &trans  &trans  &trans  &trans
 &kp LG(TAB)  &kp TAB    &kp LG(TAB)      &mkp LCLK  &kp LC(F)                   &trans  &trans  &trans  &trans  &trans
-&kp LG(H)    &trans     &trans           &trans     &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
+&win_H       &trans     &trans           &trans     &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
 &trans       &trans     &trans           &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
              &trans     &trans           &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans       &trans     &trans                                                                  &trans  &trans  &trans
