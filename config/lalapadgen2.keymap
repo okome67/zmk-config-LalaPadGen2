@@ -85,25 +85,25 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&kp Q               &kp P      &kp U         &kp Y             &kp COMMA                           &kp J      &kp D             &kp H        &kp G          &kp W
-&mt LEFT_CONTROL I  &kp O      &kp E         &kp A             &kp PERIOD                          &kp K      &kp T             &kp N        &kp S          &mt RIGHT_CONTROL R
-&mt2 LEFT_SHIFT Z   &kp X      &kp MINUS     &kp C             &kp SLASH                           &kp M      &kp L             &kp F        &kp B          &mt RSHIFT V
-&kp LCTRL           &kp LWIN   &kp LEFT_ALT  &lt 2 LANGUAGE_2  &lt 5 SPACE  &NN     &kp BACKSPACE  &kp ENTER  &lt 3 LANGUAGE_1  &kp SLASH    &kp SEMICOLON  &kp BACKSLASH
-                    &none      &kp RIGHT     &kp DOWN          &kp LEFT     &kp UP  &kp UP         &kp LEFT   &kp DOWN          &kp RIGHT    &none
-&mkp LCLK           &mkp RCLK  &mkp MCLK                                                                                        &mkp LCLK    &mkp RCLK      &mkp MCLK
-&mkp MB4            &mkp MB5   &kp LG(TAB)   &kp LG(D)         &kp LCTRL                           &mkp MB4   &mkp MB5          &kp LG(TAB)  &kp LG(D)      &kp LCTRL
+&kp Q               &kp P      &kp U         &kp Y             &kp COMMA                           &kp J      &kp D             &kp H          &kp G          &kp W
+&mt LEFT_CONTROL I  &kp O      &kp E         &kp A             &kp PERIOD                          &kp K      &kp T             &kp N          &kp S          &mt RIGHT_CONTROL R
+&mt2 LEFT_SHIFT Z   &kp X      &kp MINUS     &kp C             &kp SLASH                           &kp M      &kp L             &kp F          &kp B          &mt RSHIFT V
+&kp LCTRL           &kp LWIN   &kp LEFT_ALT  &lt 2 LANGUAGE_2  &lt 5 SPACE  &NN     &kp BACKSPACE  &kp ENTER  &lt 3 LANGUAGE_1  &kp RIGHT_ALT  &kp SEMICOLON  &kp BACKSLASH
+                    &none      &kp RIGHT     &kp DOWN          &kp LEFT     &kp UP  &kp UP         &kp LEFT   &kp DOWN          &kp RIGHT      &none
+&mkp LCLK           &mkp RCLK  &mkp MCLK                                                                                        &mkp LCLK      &mkp RCLK      &mkp MCLK
+&mkp MB4            &mkp MB5   &kp LG(TAB)   &kp LG(D)         &kp LCTRL                           &mkp MB4   &mkp MB5          &kp LG(TAB)    &kp LG(D)      &kp LCTRL
             >;
         };
 
         AND_DEF {
             bindings = <
-&kp Q               &kp P      &kp U         &kp Y             &kp COMMA                           &kp J      &kp D             &kp H        &kp G          &kp W
-&mt LEFT_CONTROL I  &kp O      &kp E         &kp A             &kp PERIOD                          &kp K      &kp T             &kp N        &kp S          &mt RIGHT_CONTROL R
-&mt2 LEFT_SHIFT Z   &kp X      &kp MINUS     &kp C             &kp SLASH                           &kp M      &kp L             &kp F        &kp B          &mt RSHIFT V
-&kp LCTRL           &kp LWIN   &kp LEFT_ALT  &lt 2 LANGUAGE_2  &lt 6 SPACE  &NN     &kp BACKSPACE  &kp ENTER  &lt 3 LANGUAGE_1  &kp SLASH    &kp SEMICOLON  &kp BACKSLASH
-                    &none      &kp RIGHT     &kp DOWN          &kp LEFT     &kp UP  &kp UP         &kp LEFT   &kp DOWN          &kp RIGHT    &none
-&mkp LCLK           &mkp RCLK  &mkp MCLK                                                                                        &mkp LCLK    &mkp RCLK      &mkp MCLK
-&mkp MB4            &mkp MB5   &kp LG(TAB)   &kp LG(D)         &kp LCTRL                           &mkp MB4   &mkp MB5          &kp LG(TAB)  &kp LG(D)
+&kp Q               &kp P      &kp U         &kp Y             &kp COMMA                           &kp J      &kp D             &kp H          &kp G          &kp W
+&mt LEFT_CONTROL I  &kp O      &kp E         &kp A             &kp PERIOD                          &kp K      &kp T             &kp N          &kp S          &mt RIGHT_CONTROL R
+&mt2 LEFT_SHIFT Z   &kp X      &kp MINUS     &kp C             &kp SLASH                           &kp M      &kp L             &kp F          &kp B          &mt RSHIFT V
+&kp LCTRL           &kp LWIN   &kp LEFT_ALT  &lt 2 LANGUAGE_2  &lt 6 SPACE  &NN     &kp BACKSPACE  &kp ENTER  &lt 3 LANGUAGE_1  &kp RIGHT_ALT  &kp SEMICOLON  &kp BACKSLASH
+                    &none      &kp RIGHT     &kp DOWN          &kp LEFT     &kp UP  &kp UP         &kp LEFT   &kp DOWN          &kp RIGHT      &none
+&mkp LCLK           &mkp RCLK  &mkp MCLK                                                                                        &mkp LCLK      &mkp RCLK      &mkp MCLK
+&mkp MB4            &mkp MB5   &kp LG(TAB)   &kp LG(D)         &kp LCTRL                           &mkp MB4   &mkp MB5          &kp LG(TAB)    &kp LG(D)
             >;
         };
 
@@ -123,13 +123,13 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR            &kp PERCENT                                   &kp CARET      &kp AMPERSAND  &kp ASTERISK    &kp MINUS       &kp EQUAL
-&kp GRAVE        &kp TILDE     &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                         &kp PAGE_DOWN  &kp LEFT       &kp DOWN_ARROW  &kp UNDERSCORE  &kp PLUS
-&kp GRAVE        &kp SQT       &kp SEMI      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                             &kp DELETE     &mkp MB4       &trans          &mkp MB5        &kp PAUSE_BREAK
-&kp RCTRL        &kp LEFT_ALT  &trans        &trans                &kp SPACE              &trans  &kp BACKSPACE  &kp LSHFT      &trans         &trans          &trans          &trans
-                 &trans        &trans        &trans                &trans                 &trans  &trans         &trans         &trans         &trans          &trans
-&trans           &trans        &trans                                                                                                          &trans          &trans          &trans
-&trans           &trans        &trans        &trans                &trans                                        &trans         &trans         &trans          &trans          &trans
+&kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR            &kp PERCENT                                   &kp CARET   &kp AMPERSAND  &kp ASTERISK  &kp MINUS       &kp EQUAL
+&kp GRAVE        &kp TILDE     &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                         &trans      &trans         &trans        &kp UNDERSCORE  &kp PLUS
+&kp GRAVE        &kp SQT       &kp SEMI      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                             &kp DELETE  &trans         &trans        &trans          &kp PAUSE_BREAK
+&kp RCTRL        &kp LEFT_ALT  &trans        &trans                &kp SPACE              &trans  &kp BACKSPACE  &kp LSHFT   &trans         &trans        &trans          &trans
+                 &trans        &trans        &trans                &trans                 &trans  &trans         &trans      &trans         &trans        &trans
+&trans           &trans        &trans                                                                                                       &trans        &trans          &trans
+&trans           &trans        &trans        &trans                &trans                                        &trans      &trans         &trans        &trans          &trans
             >;
         };
 
@@ -160,13 +160,13 @@
 
         shortcat_and {
             bindings = <
-&kp LC(L)    &kp LC(T)  &kp LS(LC(TAB))  &kp LC(W)  &kp LC(R)                   &trans  &trans  &trans  &trans  &trans
-&kp LG(TAB)  &kp TAB    &kp LC(TAB)      &mkp LCLK  &kp LC(F)                   &trans  &trans  &trans  &trans  &trans
-&win_H       &trans     &trans           &trans     &kp LC(F4)                  &trans  &trans  &trans  &trans  &trans
-&trans       &trans     &trans           &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-             &trans     &trans           &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans     &trans                                                                  &trans  &trans  &trans
-&trans       &trans     &trans           &trans     &trans                      &trans  &trans  &trans  &trans  &trans
+&kp LC(L)    &kp LC(T)  &kp LS(LC(TAB))  &kp LC(W)  &kp LC(R)                          &trans  &trans  &trans  &trans  &trans
+&kp LG(TAB)  &kp TAB    &kp LC(TAB)      &mkp LCLK  &kp LC(F)                          &trans  &trans  &trans  &trans  &trans
+&win_H       &trans     &trans           &trans     &kp LG(BACKSPACE)                  &trans  &trans  &trans  &trans  &trans
+&trans       &trans     &trans           &trans     &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans
+             &trans     &trans           &trans     &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans     &trans                                                                         &trans  &trans  &trans
+&trans       &trans     &trans           &trans     &trans                             &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
