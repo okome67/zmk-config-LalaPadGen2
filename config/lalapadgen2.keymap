@@ -41,7 +41,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_mo12";
             #binding-cells = <0>;
-            bindings = <&mo 2>, <&mo 3>;
+            bindings = <&mo 1>, <&mo 2>;
         };
 
         swapper: swapper {
@@ -108,25 +108,13 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&kp Q               &kp P      &kp U         &kp Y             &kp COMMA                                   &kp J      &kp D             &kp H          &kp G          &kp W
-&mt LEFT_CONTROL I  &kp O      &kp E         &kp A             &kp PERIOD                                  &kp K      &kp T             &kp N          &kp S          &mt RIGHT_CONTROL R
-&mt2 LEFT_SHIFT Z   &kp X      &kp MINUS     &kp C             &kp SLASH                                   &kp M      &kp L             &kp F          &kp B          &mt RSHIFT V
-&kp LCTRL           &kp LWIN   &kp LEFT_ALT  &lt 2 LANGUAGE_2  &lt 5 SPACE  &kp LEFT_SHIFT  &kp BACKSPACE  &lt 7 TAB  &lt 3 LANGUAGE_1  &kp RIGHT_ALT  &kp SEMICOLON  &kp BACKSLASH
-                    &none      &kp RIGHT     &kp DOWN          &kp LEFT     &kp UP          &kp UP         &kp LEFT   &kp DOWN          &kp RIGHT      &none
-&mkp LCLK           &mkp RCLK  &mkp MCLK                                                                                                &mkp LCLK      &mkp RCLK      &mkp MCLK
-&mkp MB4            &mkp MB5   &kp LG(TAB)   &kp LG(D)         &kp LCTRL                                   &mkp MB4   &mkp MB5          &kp LG(TAB)    &kp LG(D)      &kp LCTRL
-            >;
-        };
-
-        AND_DEF {
-            bindings = <
-&kp Q               &kp P      &kp U         &kp Y             &kp COMMA                           &kp J      &kp D             &kp H          &kp G          &kp W
-&mt LEFT_CONTROL I  &kp O      &kp E         &kp A             &kp PERIOD                          &kp K      &kp T             &kp N          &kp S          &mt RIGHT_CONTROL R
-&mt2 LEFT_SHIFT Z   &kp X      &kp MINUS     &kp C             &kp SLASH                           &kp M      &kp L             &kp F          &kp B          &mt RSHIFT V
-&kp LCTRL           &kp LWIN   &kp LEFT_ALT  &lt 2 LANGUAGE_2  &lt 6 SPACE  &NN     &kp BACKSPACE  &kp ENTER  &lt 3 LANGUAGE_1  &kp RIGHT_ALT  &kp SEMICOLON  &kp BACKSLASH
-                    &none      &kp RIGHT     &kp DOWN          &kp LEFT     &kp UP  &kp UP         &kp LEFT   &kp DOWN          &kp RIGHT      &none
-&mkp LCLK           &mkp RCLK  &mkp MCLK                                                                                        &mkp LCLK      &mkp RCLK      &mkp MCLK
-&mkp MB4            &mkp MB5   &kp LG(TAB)   &kp LG(D)         &kp LCTRL                           &mkp MB4   &mkp MB5          &kp LG(TAB)    &kp LG(D)
+&kp Q               &kp P      &kp U         &kp Y             &kp COMMA                                   &kp J        &kp D             &kp H          &kp G          &kp W
+&mt LEFT_CONTROL I  &kp O      &kp E         &kp A             &kp PERIOD                                  &kp K        &kp T             &kp N          &kp S          &mt RIGHT_CONTROL R
+&mt2 LEFT_SHIFT Z   &kp X      &kp MINUS     &kp C             &kp SLASH                                   &kp M        &kp L             &kp F          &kp B          &mt RSHIFT V
+&kp LCTRL           &kp LWIN   &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 4 SPACE  &kp LEFT_SHIFT  &kp BACKSPACE  &lt 5 ENTER  &lt 2 LANGUAGE_1  &kp RIGHT_ALT  &kp SEMICOLON  &kp BACKSLASH
+                    &none      &kp RIGHT     &kp DOWN          &kp LEFT     &kp UP          &kp UP         &kp LEFT     &kp DOWN          &kp RIGHT      &none
+&mkp LCLK           &mkp RCLK  &mkp MCLK                                                                                                  &mkp LCLK      &mkp RCLK      &mkp MCLK
+&mkp MB4            &mkp MB5   &kp LG(TAB)   &kp LG(D)         &kp LCTRL                                   &mkp MB4     &mkp MB5          &kp LG(TAB)    &kp LG(D)      &kp LCTRL
             >;
         };
 
@@ -162,7 +150,7 @@
 &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &out OUT_TOG                   &bt BT_SEL 0                   &bt BT_SEL 1                   &bt BT_SEL 2                   &bt BT_SEL 3
 &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &sys_reset                     &bootloader                    &bt BT_CLR                     &bt BT_CLR_ALL                 &kp CAPSLOCK
 &kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &zip_dyn_scale ZDS_XY ZDS_INC  &zip_dyn_scale ZDS_XY ZDS_DEC  &zip_dyn_scale ZDS_SC ZDS_INC  &zip_dyn_scale ZDS_SC ZDS_DEC  &zip_dyn_scale ZDS_ALL ZDS_RST
-&to 0    &to 1    &trans   &trans   &trans   &trans  &trans  &trans                         &trans                         &trans                         &trans                         &trans
+&to 0    &to 0    &trans   &trans   &trans   &trans  &trans  &trans                         &trans                         &trans                         &trans                         &trans
          &trans   &trans   &trans   &trans   &trans  &trans  &trans                         &trans                         &trans                         &trans
 &trans   &trans   &trans                                                                                                   &trans                         &trans                         &trans
 &trans   &trans   &trans   &trans   &trans                   &trans                         &trans                         &trans                         &trans                         &trans
@@ -178,18 +166,6 @@
              &trans         &trans           &trans     &trans     &trans  &trans  &trans     &trans          &trans          &trans
 &trans       &trans         &trans                                                                            &trans          &trans           &trans
 &trans       &trans         &trans           &trans     &trans                     &trans     &trans          &trans          &trans           &trans
-            >;
-        };
-
-        shortcat_and {
-            bindings = <
-&kp LC(L)    &kp LC(T)  &kp LS(LC(TAB))  &kp LC(W)  &kp LC(R)                          &trans  &trans  &trans  &trans  &trans
-&kp LG(TAB)  &kp TAB    &kp LC(TAB)      &mkp LCLK  &kp LC(F)                          &trans  &trans  &trans  &trans  &trans
-&win_H       &trans     &trans           &trans     &kp LG(BACKSPACE)                  &trans  &trans  &trans  &trans  &trans
-&trans       &trans     &trans           &trans     &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans
-             &trans     &trans           &trans     &trans             &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans     &trans                                                                         &trans  &trans  &trans
-&trans       &trans     &trans           &trans     &trans                             &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -210,8 +186,8 @@
         compatible = "zmk,conditional-layers";
 
         Cond_Syslayer {
-            if-layers = <2 3>;
-            then-layer = <4>;
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 };
