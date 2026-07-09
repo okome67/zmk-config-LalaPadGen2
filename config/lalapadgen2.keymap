@@ -171,13 +171,13 @@
 
         migite {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &mkp MB4         &mkp MB5     &kp LC(T)  &swapper  &trans
-&trans  &trans  &trans  &trans  &trans                  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(W)  &trans    &trans
-&trans  &trans  &trans  &trans  &trans                  &trans           &trans       &trans     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans       &trans     &trans    &trans
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans       &trans     &trans
-&trans  &trans  &trans                                                                &trans     &trans    &kp C_PP
-&trans  &trans  &trans  &trans  &trans                  &trans           &trans       &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &trans                  &mkp MB4            &mkp MB5             &kp LC(T)         &swapper            &trans
+&trans  &trans  &trans  &trans  &trans                  &kp LC(LS(TAB))     &kp LC(TAB)          &kp LC(W)         &trans              &trans
+&trans  &trans  &trans  &trans  &trans                  &trans              &trans               &trans            &trans              &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans              &trans               &trans            &trans              &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans              &trans               &trans            &trans
+&trans  &trans  &trans                                                                           &trans            &trans              &kp C_PP
+&trans  &trans  &trans  &trans  &trans                  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)  &trans
             >;
         };
     };
