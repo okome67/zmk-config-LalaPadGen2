@@ -74,6 +74,7 @@
         ls+tab {
             bindings = <&kp LS(TAB)>;
             key-positions = <8 7>;
+            layers = <7>;
         };
 
         copy {
