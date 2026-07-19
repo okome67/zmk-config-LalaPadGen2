@@ -188,22 +188,6 @@
         };
     };
 
-    pointing_dev {
-        compatible = "zmk,pointing-dev";
-
-        scroll-up-key = <&kp VOL_UP>;
-        scroll-down-key = <&kp VOL_DOWN>;
-        #if IS_ENABLED(CONFIG_ZMK_LAYER_SYSTEM)
-        conditional_layers {
-            compatible = "zmk,conditional-layers";
-
-            volume_control_when_system_layer_active {
-                if-layers = <3>; /* SYSTEM_LAYER */
-                then-keys = <&scroll_up_key &scroll_down_key>;
-            };
-        };
-        #endif
-    };
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
