@@ -79,12 +79,12 @@
 
         copy {
             bindings = <&kp LA(C)>;
-            key-positions = <4 3>;
+            key-positions = <3 13>;
         };
 
         paste {
             bindings = <&kp LA(V)>;
-            key-positions = <14 13>;
+            key-positions = <14 4>;
         };
     };
 
@@ -187,7 +187,6 @@
             >;
         };
     };
-
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
