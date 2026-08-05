@@ -23,5 +23,8 @@ manifest:
     - name: zmk-smart-toggle
       remote: caksoylar
       revision: main
+    - name: zmk-leader-key
+      remote: urob
+      revision: v0.3
   self:
     path: config
