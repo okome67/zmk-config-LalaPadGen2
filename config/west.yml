@@ -7,7 +7,7 @@ manifest:
     - name: caksoylar
       url-base: https://github.com/caksoylar
     - name: urob
-      url-base: https://github.com/urob
+      url-base: https://github.com/urob  
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -24,9 +24,12 @@ manifest:
       revision: v0.3
     - name: zmk-smart-toggle
       remote: caksoylar
-      revision: main
+      revision: main 
     - name: zmk-leader-key
       remote: urob
       revision: v0.3
+    - name: zmk-auto-layer
+      remote: urob
+      revision: v0.3     
   self:
     path: config
