@@ -113,12 +113,12 @@
 
         copy {
             bindings = <&kp LC(C)>;
-            key-positions = <3 13>;
+            key-positions = <13 23>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
-            key-positions = <14 4>;
+            key-positions = <14 24>;
         };
 
         lang1_abc {
@@ -129,6 +129,16 @@
         lang2_kana {
             bindings = <&kp LANG2>;
             key-positions = <17 16>;
+        };
+
+        ya {
+            bindings = <&ya>;
+            key-positions = <13 3>;
+        };
+
+        zi {
+            bindings = <&zi>;
+            key-positions = <20 10>;
         };
     };
 
@@ -145,6 +155,20 @@
             #binding-cells = <0>;
             bindings = <&kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
             label = "mail1";
+        };
+
+        ya: ya {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp A>;
+            label = "YA";
+        };
+
+        zi: zi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp I>;
+            label = "ZI";
         };
     };
 
