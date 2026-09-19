@@ -73,6 +73,17 @@ manifest:
     - name: zmk-feature-fast-keymap
       remote: cormoran
       revision: main
+    - name: zmk-module-runtime-input-processor
+      remote: cormoran
+      revision: main
+
+    - name: zmk-module-ble-management
+      remote: cormoran
+      revision: main
+
+    - name: zmk-module-settings-rpc
+      remote: cormoran
+      revision: main  
 
   self:
     path: config
