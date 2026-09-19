@@ -1,5 +1,9 @@
 #include "lalapadgen2.dtsi"
 
+&xiao_serial {
+    status = "disabled";
+};
+
 &default_transform {
     col-offset = <6>;
 };
